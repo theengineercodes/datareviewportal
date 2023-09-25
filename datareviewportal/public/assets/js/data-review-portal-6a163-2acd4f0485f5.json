@@ -1,0 +1,13 @@
+{
+  "type": "service_account",
+  "project_id": "data-review-portal-6a163",
+  "private_key_id": "2acd4f0485f50560912a51e9e1c953a4077a48bf",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQDrsmiIx/G1RbkG\nE+D1GIv4Ouh6GnGrEIBP/uY/eqtWPU1WsqkycQtklusij4WQWBWlF1alxtbaSU8A\nl4LlfGG80LIDjrt/1JOXmX4tfJmE/8AT/e/e1Rtw7KBXWK9zGRuv4h8Cry6dXxRW\n8EdYn/O7mllIkFxPXmqCubFexozAAyVOq3s+KnvviTtnY5m6mdFg5LE6LLhtlHu6\n6kQkBzDKnuQFN0jIh2+oEcBs0ehpPrqOswaGV8VlTwSNcqOR3lmCKLT4OP6m+PY5\nawQs9My8pbi3v9WhZEzvYJG9F8IPdBtgqEMHfVG+iIEbO9jbOzQSmoqqRyDK30fy\nQdsg2BPpAgMBAAECggEAIWYFN2dTHONltd1t7HfZ/bF7Qod/a+9z/zdDho3qEYJb\nny7EmF05xrs2qThlLhsNQM5EfPaReMUX6Mw6GYK9PCA72WffBzIm5+iG313fSIq6\nZnApZA4WoV3RKroVF941n4APR4tuCObG3xA/9pL+hVWjKTaA83jm5uH2pv4Y8Rbm\nD8kvc8hJNNtJ+ujMHlJrVKkkthhiv8CqOWZEqDlvo5IURAf50B8OjIw9f1nf9rEX\nIhhYZLn+lB/QV1e65Sky8dvMWRPhRlRZKI3j1/ukGnrfb2p65G+alwoJY29UBq07\nXY5wOdKq+FtxOY6Ap8P6ZfiAVEoHU2Moliypahe9cQKBgQD6uNBa87ZvZc+kkENm\ndJeMF5WIMmXa3+mhT9ZMSrQaDVx8ycsnzemDo1u9rWCYkTgrqR3PrHA37PKZiYad\niKIX807S6WrIC98MvCSYSrnLCkCMrdUXXEQtvum7Tm/VHAOK2rj6P9fBIweleH4J\nihrXDFOwFxHgY9Y7NScTDuJ9cwKBgQDwqJ8zC8r8Ckfv/A/MKaMtFw1B0wokFTMy\ngBahoEJxRsAAE1pAcFHgFXfNIhxjtnnPGAZ/q6Mrmyz9sRxLg/7C/8LQPoHrDL2G\nCqlt0R3k5VRSdVYddYlqZB/vwLXoTR/eCVu8jTMfwlLoNxfMkj065hKigGXaQerp\nRRnpJb0SMwKBgDubhsWo3X28idJJDg0kuQbwcHeR689Onr/gOEWpGQp8lLmCTE9p\nUBQg2WXN+4IqPF189n5yM7fIGKFSJfP8EPV6vgm8vstSrzPa4yRl16gjBterWFcW\nc4sgsXb7nfDfmSQA/itY1FWxm1bGv8hK0jjAUIEz6ucbNUqcR27rggNrAoGBAMxZ\nUn1E2UK09Cq6bSuee3mRJmerbOQAwG10SENL0r9fJS+rPyqSdWOCtyyPd23QB5Sr\nQPFt6+reJBDzMCSLW2t3Q5QST70oH1JPgVjHhcvUU4qFKe9v25Rkmp25lH1B5/ph\nFe2ANFYWatHV3jaOQsHdlRs5TcNLz83uKDdKHUbzAoGAE1EjnLjjgsbpZo+U8Jid\n+uMFjrj5v/+Qq1IxNvqSYOkn/W6cCAtqVCleqKaejkZNAGygIiCEY8H6ssqUavSy\nB638KCKSx/e2SfYkmOZngoDR1zF5lyim2jOMzpBCR6Ejq3sA/6FYOMVQGeQ111Si\nj3BpquSDSmS9DKzU1uZBfxo=\n-----END PRIVATE KEY-----\n",
+  "client_email": "data-review-portal-service-acc@data-review-portal-6a163.iam.gserviceaccount.com",
+  "client_id": "113452073556927906130",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/data-review-portal-service-acc%40data-review-portal-6a163.iam.gserviceaccount.com",
+  "universe_domain": "googleapis.com" 
+}

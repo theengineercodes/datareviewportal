@@ -1,0 +1,143 @@
+*{
+    padding: none;
+    margin: none;
+    font-family: sans-serif;
+    text-decoration: none;
+}
+body{
+    background: #00000034;
+}
+.loader_bg{
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background: #fff;
+    z-index: 999999999;
+    overflow: hidden;
+}
+.loader{
+    border: 0 solid transparent;
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    position: absolute;
+    top: calc(50vh - 75px);
+    left: calc(50vw - 75px);
+}
+.loader:before, .loader:after{
+    content: '';
+    border: 1em solid #019343;
+    border-radius: 50%;
+    width: inherit;
+    height: inherit;
+    position: absolute;
+    top: 0;
+    left: 0;
+    animation: loader 2s linear infinite;
+    opacity: 0;
+}
+.loader:before{
+    animation-delay: .5s;
+}
+@keyframes loader{
+    0%{
+        transform: scale(0);
+        opacity: 0;
+    }
+    50%{
+        opacity: 1;
+    }
+    100%{
+        transform: scale(1);
+        opacity: 0;
+    }
+}
+
+.portal-wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.portal{
+    top: 20px;
+    padding: 20px 40px;
+    box-shadow: 0 0 10px;
+    border-radius: 20px;
+    text-align: center;
+    width: 400px;
+    position: relative;
+    background: #fff;
+}
+.input{
+    border: 3px solid #026c32;
+    outline: none;
+    border-radius: 30px;
+}
+input{
+    padding: 15px 0;
+    font-size: 17px;
+    border: none;
+    outline: none;
+    text-align: center;
+    background: transparent;
+}
+::placeholder{
+    color: rgba(0, 0, 0, 0.808);
+}
+ion-icon{
+    position: relative;
+    top: 8px;
+    font-size: 30px;
+    cursor: pointer;
+}
+button{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 20px 17px;
+    width: 100%;
+    border-radius: 30px;
+    border: none;
+    background: #026c32;
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+    transition: .4s ease;
+}
+button:hover{
+    background: #019343;
+}
+
+a{
+    color: #026c32;
+    font-size: 15px;
+    transition: all .4s ease;
+}
+a:hover{
+    color: #019343;
+}
+p{
+    font-size: 15px;
+}
+
+.go-home-to-markaz-daarusslaam a{
+    padding: 10px 30px;
+    background: #026c32;
+    color: white;
+}
+.go-home-to-markaz-daarusslaam a:hover{
+    background: #019343;
+}
+
+
+@media(max-width:400px){
+    .portal{
+        width: 300px;
+    }
+    .input{
+        padding: 0 10px;
+    }
+    input{
+        padding: 18px 0;
+    }
+    
+}

@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Data Review Portal</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="shortcut icon" href="assets/img/logo-1.jpg">
+    <script src="assets/js/script.js"></script>
+    <!-- database -->
+    <link rel="stylesheet" href="assets/js/database.js">
+    <!-- json -->
+    <!-- <link rel="stylesheet" href="assets/js/data-review-portal-6a163-2acd4f0485f5.json"> -->
+    <!-- ion-icons -->
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+</head>
+<body>
+
+    <div class="loader_bg">
+        <div class="loader"></div>
+    </div>
+
+    <div class="portal-wrapper">
+        <div class="portal">
+            <div class="logo">
+                <img src="assets/img/logo-1.jpg" width="200px">
+            </div>
+            <div class="heading">
+                <h1>Data Review Portal</h1>
+            </div>
+            <div class="paragraph">
+                <p>Please enter your valid index number to review your 
+                <b>student/personal</b> information</p>
+            </div>
+            <div class="input-form">
+                <form action="#">
+                    <div class="input">
+                        <input type="password" name="password" placeholder="Enter your index number" maxlength="10" required>
+                        <ion-icon name="eye-outline" id="font" onclick="togglePW()" aria-hidden="true"></ion-icon>
+                    </div>
+                    <div class="button">
+                        <button type="submit">Review</button>
+                    </div>
+                </form>
+            </div>
+            <div class="forgot-index-number">
+                <a href="#">Forgot Index Number</a>
+            </div>
+            <div class="form3">
+                <p>Are you a new student? <a href="#">Click Here</a></p>
+            </div>
+        </div>
+    </div>
+
+    <div class="go-home-to-markaz-daarusslaam">
+        <a href="#" title="Go To Markaz Daarus-Salaam">GO HOME</a>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.0/jquery.min.js"></script>
+
+    <script>
+        setTimeout(function(){
+            $('.loader_bg').fadeToggle();
+        }, 10000);
+    </script>
+</body>
+</html>
